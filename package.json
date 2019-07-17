@@ -1,0 +1,28 @@
+{
+  "name": "yg-echarts",
+  "version": "1.0.0",
+  "description": "chart component for yigo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d ./dist",
+    "release": "npm publish -registry http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefferscn/yg-echarts.git"
+  },
+  "author": "jefferscn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jefferscn/yg-echarts/issues"
+  },
+  "homepage": "https://github.com/jefferscn/yg-echarts#readme",
+  "dependencies": {
+    "echarts": "^4.2.1",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "yes-intf": "^1.1.21"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1"
+  }
+}
